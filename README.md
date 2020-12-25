@@ -103,3 +103,9 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+
+A handy site for random generation of matrices is https://onlinemathtools.com/generate-random-matrix. For convenience, set the element and column separators to the comma (“,”).
+
+Here's one I got from them, plugged into the makeCacheMatrix function. Note the “byrow = true” parameter to the matrix creation function. I suppose you could omit it, giving you the transpose.
+
+testMat <- makeCacheMatrix(matrix(c(5, 4, 9, 6, 8, 1, 0, 8, 8, 3, 3, 2, 2, 9, 6, 8, 8, 8, 4, 7, 4, 8, 6, 9, 8), nrow = 5, byrow = TRUE))
