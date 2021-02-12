@@ -2,7 +2,9 @@
 title: "README.md"
 author: "Daniel Escasa"
 date: "12/28/2020"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
